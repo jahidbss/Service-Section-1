@@ -2,61 +2,52 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-}
-.section-padding{
-    padding: 80px 0px;
+    text-decoration: none !important;
+    
 }
 .section-title{
-    margin-bottom: 60px;
-    text-align: center;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.section-title span{
+    color: rgb(8, 92, 15);
+}
+.card , .card-header{
+    background-color: transparent;
+    padding: 0px;
+    margin-bottom: 20px;
+    outline: none;
+    display: block;
+}
+.card-header a{
+    color: #000;
+    font-size: 20px;
+    padding: 10px;
+    display: block;
+}
+.card-header .fa{
+    float: right;
+    display: block;
+}
+
+.section-bg-1{
+    background: rgb(241, 236, 236);
     position: relative;
 }
-.section-title h2{
-    padding-bottom: 30px;
-}
-.section-title h2:before{
-    position: absolute;
-    content: '';
-    top: 55%;
-    left: 47%;
-    background: rgb(217, 231, 14);
-    width: 100px;
-    height: 3px;
 
-}
-.section-title h2::after{
+.section-bg-1::after{
+    
+    background-image: url(../images/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 40%;
     position: absolute;
     content: '';
-    top: 55%;
-    left: 49%;
-    background: rgb(21, 22, 10);
-    width: 50px;
-    height: 3px;
+    top: 0%;
+    left: 5%;
+    
 }
-.single-service-icon{
-    text-align: center;
-    margin: 20px 0;
-    text-decoration: none;
-}
-.single-service-icon h3{
-    margin: 20px 0;
-    font-size: 30px;
-    text-transform: capitalize;
-    color: #1d0930;
-}
-.service-container{
-    display: table;
-    width: 100%;
-    height: 59px;
-}
-.service-icon-tablecell{
-    display: table-cell;
-    vertical-align: middle;
-}
-.service-container .fa{
-    font-size: 59px;
-    color: rgba(141, 23, 23, 0.733);
-}
-.single-service-icon p{
-    color: #333;
-}
+
